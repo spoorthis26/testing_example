@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <limits.h>
-#include "cal2.h"
+#include "my_calc.h"
 #include<math.h>
 
 void test_cal(void)
