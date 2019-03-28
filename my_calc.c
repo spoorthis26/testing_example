@@ -2,9 +2,8 @@
 #include <limits.h>
 #include <math.h>
 
-#include "my_calc.h"
 
-int calculator(int m, int a, int b)
+int calculator1(int m, int a, int b)
 {
   if (m==1)
     {
@@ -12,19 +11,18 @@ int calculator(int m, int a, int b)
     }
   else
   {
-   int r;
+   int i,r=1;
     if(a>0 && b>0)
-      r=pow(a,b);
-    else if(a>0 && b<0)
     {
-      r=pow(a,b);
-      r=1%r;
+       for(i=1;i<=b;i++)
+        r=r*a;
     }
+
     else
     {
-     printf("invalid operator);
+     printf("invalid operator");
      return 0;
-     }
-            return r;
-   }
+    }
+    return r;
   }
+}
