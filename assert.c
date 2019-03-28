@@ -28,4 +28,5 @@ void test_cal(void)
 int main(void)
 {
   test_cal();
+  return 0;
 }
