@@ -25,5 +25,6 @@ int calculator(int m, int a, int b)
      printf("invalid operator);
      return 0;
      }
+            return r;
    }
   }
