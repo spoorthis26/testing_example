@@ -13,7 +13,7 @@ test_CALC(void)
   CU_ASSERT (calculator1(1,-5,3)==-2);
   CU_ASSERT (calculator1(1,-5,-3)==-8);
   CU_ASSERT (calculator1(0,5,3)==125);
-  CU_ASSERT (calculator1(0,5,-3)==0.008);
+  CU_ASSERT (calculator1(0,5,-3)==0);
   CU_ASSERT (calculator1(0,-5,3)==0);
   CU_ASSERT (calculator1(0,-5,-3)==0);
   printf (" OK\n");
