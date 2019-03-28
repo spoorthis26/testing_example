@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <limits.h>
-
-
-
 int calculator1(int m, int a, int b)
 {
   if (m==1)
