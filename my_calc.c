@@ -11,5 +11,19 @@ int calculator(int m, int a, int b)
       return a+b;
     }
   else
-   int r=pow(a,b);
-}
+  {
+   int r;
+    if(a>0 && b>0)
+      r=pow(a,b);
+    else if(a>0 && b<0)
+    {
+      r=pow(a,b);
+      r=1%r;
+    }
+    else
+    {
+     printf("invalid operator);
+     return 0;
+     }
+   }
+  }
