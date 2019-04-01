@@ -4,7 +4,7 @@ int calculator1(int m, int a, int b)
 {
   if (m==1)
     {
-      return a+b;
+      return (a+b);
     }
   else
   {
