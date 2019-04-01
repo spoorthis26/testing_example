@@ -17,7 +17,7 @@ int calculator1(int m, int a, int b)
 
     else
     {
-     printf("invalid operator");
+     printf(" operator invalid");
      return 0;
     }
     return r;
