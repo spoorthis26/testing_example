@@ -5,7 +5,8 @@
 
 void test_cal(void)
 {
-  printf("Test calculator using assert:      \n");
+  printf("welcome :) \n")
+  printf("this module tests calculator using assert:      \n");
   assert(calculator1(1,5,1)==6);
   printf("positive operators in sum,verified!\n");
   assert(calculator1(1,-5,3)==-2);
